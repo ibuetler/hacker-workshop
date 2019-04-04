@@ -10,4 +10,10 @@ Damit man selbst etwas "machen" kann wäre es cool, wenn Du am Workshop deinen e
 
 Man kann beim Workshop auch ohne Hacking-Lab LiveCD mitmachen und profitieren. 
 
+## Chat
+Wir können uns über diesen einfachen Chat austauschen (wird während Workshop gestartet)
+* https://chat.idocker.hacking-lab.com/
+
+
+
 
