@@ -54,13 +54,29 @@ cat /home/restricted/.git/config
 
 ```
 
-## Ergklärung zum Hack
+## Erklärung zum Hack
+Der Hack besteht aus 3 Schritten
+
+1. Ausbruch aus dem Gefängnis (rbash breakout)
+2. Via .git/config das root passwort herausfinden
+3. root werden und `/goldnugget/goldnugget.gn` Datei auslesen
+
+### Ausbruch aus dem Gefängnis
 * Schaue Dir die Berechtigungen an (insbesondere von .bashrc)
 * Was bewirkt die .bashrc? Mach Dich schlau bei Google
 * Lerne den Befehl "tee" kennen (Nachlesen bei Google)
 * Kombiniere diese Tipps und verlass das Gefängnis indem Du den Befehl "echo" mit der "|" und einer Datei kombinierst
+* Du musst ausloggen und neu einloggen, damit dein Hack wirkt
+* Danach solltest Du aus dem Gefängnis ausgebrochen sein
+
+### via GIT das root Passwort herausfinden
 * Du wirst eine .git Datei finden
 * Was macht GIT? 
-* Lerne das kennen
-* Hack Dich weiter ...
+* Lerne das kennen und Du wirst das root Passwort via git finden
+
+### Root werden mit dem Befehl `su -`
+* Hack Dich weiter ... nutze das root Passwort um root zu werden
+* Danach kannst Du die `/goldnugget/goldnugget.gn` Datei auslesen
+* Nutze dazu den Befehl `cat /goldnugget/goldnugget.gn`
+* fertig();
 
