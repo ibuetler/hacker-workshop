@@ -1,4 +1,4 @@
-# Aufgabe 05: Password Check
+# Aufgabe 05: Wie gut ist (d)ein Passwort
 ## Einleitung
 Ein gutes Passwort und überall ein anderes Passwort zu haben ist sehr wichtig! Doch wie wählt man ein gutes Passwort?
 
